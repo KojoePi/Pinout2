@@ -26,11 +26,11 @@ pin:
 -->
 #ATmega 328p / Arduino over SPI
 
-###Did you know that your Pi could power and program an ATmega 328p/Arduino directly, with nothing but a few wires, a breadboard, a 16Mhz crystal oscillator and some 22pF capacitors?
+###Wusstest du, dass du einen ATmega 328p/Arduino mit Strom versorgen und programmieren kann? Mit nur ein paar Kabeln, einem Breadboard, einem 16MHz Oszilator und einige 22pF capacitors.
 
-Read my [complete Pico PiDuino tutorial](http://pi.gadgetoid.com/article/building-the-pico-piduino) to get started for just over &pound;5
+Lies meinen kompletten Guide [complete Pico PiDuino tutorial](http://pi.gadgetoid.com/article/building-the-pico-piduino) um für ein wenig mehr als &pound;5 zu starten.
 
-You'll need to install [Gordon's modified AVRDude](https://projects.drogon.net/raspberry-pi/gertboard/arduino-ide-installation-isp/).
+Du musst  [Gordon's modified AVRDude](https://projects.drogon.net/raspberry-pi/gertboard/arduino-ide-installation-isp/) installieren.
 
 Connect 8/CEO to your ATmega's Reset/RST pin, 9/MISO to its MISO pin (D12), 10 to its MOSI pin (D11) and 11/SCLK to its SCLK pin (D13).
 
